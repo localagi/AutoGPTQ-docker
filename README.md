@@ -1,4 +1,4 @@
-# Llama-GPTQ-docker
+# AutoGPTQ-docker
 
 Sophisticated docker builds for parent projects [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ)
 
