@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+
+  autogptq:
+    image: localagi/autogptq:main${AUTOGPTQ_FLAVOR}

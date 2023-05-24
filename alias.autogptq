@@ -1,0 +1,4 @@
+# Alias helper
+source .env
+GPU_ARGS="--gpus all"
+alias autogptq="docker run --init ${GPU_ARGS} -v ${LOCAL_MODEL_DIR}:${LOCAL_MODEL_DIR} localagi/autogptq:${AUTOGPTQ_VERSION}${AUTOGPTQ_FLAVOR}"
